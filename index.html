@@ -65,8 +65,7 @@
 					<ul>
 						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
 						<li><a href="#" data-nav-section="about">About</a></li>
-						<li><a href="#" data-nav-section="projects">Projects</a></li>
-						<li><a href="#" data-nav-section="experience">Past</a></li>
+						<li><a href="#" data-nav-section="experience">Experience</a></li>
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
 
 					</ul>
@@ -110,10 +109,12 @@ Made with <i class="icon-heart"> </i> by Roshni<br>
 					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
 					   				<div class="slider-text-inner">
 					   					<div class="desc">
-											<h3><font color="white">Hey you!</font></h3>
 											<br>
-										
-											<p>style="color:gray;"<a class="btn btn-primary btn-learn" href="files/Roshni_CV.pdf" target="_blank">Download CV <i class="icon-download4"></i></a></p>
+											<br>
+											<br>
+											<br>
+											<br>
+											<p><a class="btn btn-primary btn-learn" href="files/Roshni_CV.pdf" target="_blank">Download CV <i class="icon-download4"></i></a></p>
 											</div>
 					   				</div>
 					   			</div>
@@ -132,82 +133,11 @@ Made with <i class="icon-heart"> </i> by Roshni<br>
 								<div class="col-md-12">
 									<div class="about-desc">
 										<span class="heading-meta">About Me</span>
-										<h2 class="colorlib-heading">Who Am I?</h2>
-										<p><strong>Hi, I'm Roshni.</strong> I am interested in .</p>
-										<p>I am currently a post-bac reserach intern at <a href="https://www.nasa.gov/ames" target="_blank">NASA Ames Research Center</a>, working in the Earth Science Division. Prior to this, I was at <a href="https://www.jpl.nasa.gov/" target="_blank">NASA Jet Propulsion Laboratory</a> and <a href="https://www.nasa.gov/langley" target="_blank">NASA Langley Research Center</a> working on Bioinformatics and Data Science projects respectively.
-										<p>I like to share interesting ideas and articles on <a href="https://www.twitter.com/roshni__b" target="_blank">twitter</a>. My codebase is available through <a href="https://github.com/roshni-b" target="_blank">github</a>.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="colorlib-education" data-section="projects">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Projects</span>
-							<h2 class="colorlib-heading animate-box">Current Projects</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<div class="fancy-collapse-panel">
-								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingOne">
-									        <h4 class="panel-title">
-									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Mammalian expression evolution</a>
-									        </h4>
-									    </div>
-									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-									         <div class="panel-body">
-									         <p><img src="images/mammals.meanexp.png"></p>
-											 <p>The evolutionary history of a gene is frequently used to predict its function and relationship to phenotypic traits. However, current comparative genomics methods focus primarily on sequence conservation, and few methods exist for interpreting comparative expression data. </p>
-									         
-									         <p>Using RNA-sequencing data from 7 tissues across 17 mammalian species, I showed that expression evolution across mammals is a nonlinear process and accurately modeled by mathematical model called the Ornstein-Uhlenbeck (OU) process. I demonstrate how to use this model to identify expression pathways underlying conserved and lineage-specific phenotypes. Furthermore, I show how to use this model to estimate the distribution of each gene’s optimal expression level in a given tissue. For example, we may estimate a gene's "optimal expression distribution" to be 25 +/- 1.5 units in the liver, based on our evolutionary data. This distribution can then be used to detect deleterious expression levels (i.e. levels outside the optimal expression distribution) in patient expression data. </p>
-									         <p>This work provides a statistical framework for interpreting expression data across species and in disease. Evolutionary estimates of optimal gene expression is available at the <a href="https://portals.broadinstitute.org/evee/" target="_blank">EVEE Gene Browser</a>.
-									         <p>Paper: <a href="https://genome.cshlp.org/content/29/1/53" target="_blank">A quantitative model for characterizing the evolutionary history of mammalian gene<br>&emsp;&emsp;&emsp;&ensp;expression</a>. <em>Genome Research</em>, Jan 2019. </p>
-            
-									         </div>
-									    </div>
-									</div>
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingTwo">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Long noncoding RNA evolution
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-									        <div class="panel-body">
-									        <p><img src="images/lncrnas.png"></p>
-									         <p>The development of RNA-sequencing technology led to the discovery that thousands, of long noncoding RNAs (lncRNAs) are pervasively transcribed in the mammalian genome. Yet, the function of these genes are unknown.</p>
-									         <p>In a collaboration with <a href="http://garberlab.umassmed.edu/" target="_blank">Manuel Garber (UMass Medical)</a>, we developed a computational tool, <a href="http://slncky.github.io/" target="_blank"><em>slncky</em></a>, that identifies lncRNAs from RNA-sequencing data and examines the evolutionary history of these genes.  Our tool discovers orthologous lncRNAs and calculates metrics relevant for noncoding transcript evolution such as transcript-transcript identity (what percentage of the transcript sequence is transcribed in another species) and splice site conservation.</p>
-									         <p>Our analysis revealed distinct patterns of selection, uncovering several classes of lncRNAs that likely each have distinct functions.  Out of the tens and thousands of currently annotated lncRNAs, we identify 233 constrained lncRNAs which are browsable through the <a href="https://scripts.mit.edu/~jjenny/" target="_blank"><em>slncky</em> Evolution Browser</a>.</p>
-									         <p>Paper: <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0880-9" target="_blank">Evolutionary analysis across mammals reveals distinct classes of long non-coding RNAs</a>.<br>&emsp;&emsp;&emsp;<em>Genome Biology</em>, January 2016. </p>
-									        </div>
-									    </div>
-									</div>
-									
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingFive">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Jungle Genomics
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-									        <div class="panel-body">
-									            <p>
-												In the summer of 2018, I had the awesome opportunity to visit the first molecular biology lab <b>inside</b> the Amazon Rainforest, and to use nanopore sequencing technology to sequence samples ranging from squirrel monkeys to dung beetles. This project is a collaboration between Mrinalini Watsa and Gideon Erkenswick, founders of <a href="https://fieldprojects.org/initiatives/greenlab/" target="_blank">The Green Lab</a>, as well as <a href="http://www.thenextgenscientist.com/" target="_blank">Aaron Pomerantz</a> and Stefan Prost, who are working to establish mobile laboratories to accelerate discovery in conservation and ecological genomics. <br><br>You can learn more about this project here: 
-												<br><iframe width="560" height="315" src="https://www.youtube.com/embed/rLDwuBl5tK8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-												</p>	
-									        </div>
-									    </div>
-									</div>
+										<!––<h2 class="colorlib-heading">Who Am I?</h2>--!>
+										<p><strong>Hi, I am Roshni.</strong></p>
+										<p align="justify">I am a post-bac research intern at <a href="https://www.nasa.gov/ames" target="_blank">NASA Ames Research Center</a>, prior to this, I was at <a href="https://www.nasa.gov/langley" target="_blank">NASA Langley Research Center</a> working as an intern in their Data Science team.
+										<p align="justify">I completed my Bachelors in Technology in Computer Science and Engineering from <a href="https://www.nitrkl.ac.in" target="_blank">National Institute of Technology, Rourkela</a> in India. I spent the summer of my junior year at <a href="https://www.jpl.nasa.gov/" target="_blank">NASA Jet Propulsion Laboratory/Caltech</a> in the <a href="https://planetaryprotection.jpl.nasa.gov/" target="_blank">Planetary Protection Center for Excellence</a> and developed a keen interest in the field of Computational Genomics.
+										</div>
 								</div>
 							</div>
 						</div>
