@@ -818,39 +818,39 @@ body.offcanvas {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     display: table;
     text-align: center;
     background: #f2f3f7;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    border-radius: 2px; }
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    border-radius: 1px; }
     .colorlib-feature .colorlib-icon i {
       display: table-cell;
       vertical-align: middle;
       color: #2c98f0;
-      font-size: 60px;
-      height: 100px; }
+      font-size: 40px;
+      height: 50px; }
       @media screen and (max-width: 1200px) {
         .colorlib-feature .colorlib-icon i {
           font-size: 40px; } }
   .colorlib-feature .colorlib-text {
-    padding-left: 120px;
+    padding-left: 80px;
     width: 100%; }
     .colorlib-feature .colorlib-text h2, .colorlib-feature .colorlib-text h3 {
       margin: 0;
       padding: 0; }
     .colorlib-feature .colorlib-text h3 {
       font-weight: 500;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       color: rgba(0, 0, 0, 0.7);
       font-size: 14px;
       letter-spacing: 3px;
       text-transform: uppercase; }
   .colorlib-feature.colorlib-feature-sm .colorlib-text {
-    margin-top: 30px; }
+    margin-top: 5px; }
   .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
     color: #2c98f0;
     font-size: 40px; }
@@ -1427,3 +1427,9 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
