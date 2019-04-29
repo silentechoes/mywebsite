@@ -1433,3 +1433,7 @@ body.offcanvas {
 
 .right {
   float: right; }
+
+.Box p{
+    margin: 0;
+}
